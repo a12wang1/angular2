@@ -1,0 +1,15 @@
+<p>
+  user-list works!
+</p>
+<div>
+	<ul>
+		<li *ngFor="let name of names">Hello {{name}}</li>
+	</ul>
+</div>
+<button (click)="button()">按钮</button>
+<hr />
+
+<ul>
+	<app-user-item *ngFor=" let name of names" [name] = "name"></app-user-item>
+</ul>
+
