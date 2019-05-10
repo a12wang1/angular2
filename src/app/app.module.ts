@@ -9,6 +9,7 @@ import { UserItemComponent } from './user-item/user-item.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { UserFormComponent } from './user-form/user-form.component';
 import { FormWithValidationsExplicitComponent } from './form-with-validations-explicit/form-with-validations-explicit.component';
+import { HttpComponent } from './http/http.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { FormWithValidationsExplicitComponent } from './form-with-validations-ex
     UserListComponent,
     UserFormComponent,
     FormWithValidationsExplicitComponent,
+    HttpComponent,
 
   ],
   imports: [
