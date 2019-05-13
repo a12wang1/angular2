@@ -15,6 +15,7 @@ import { HttpComponent } from './http/http.component';
 import { RouterAppComponent } from './router-app/router-app.component';
 import { WangSleepComponent } from './wang-sleep/wang-sleep.component';
 import { WantSleepingComponent } from './want-sleeping/want-sleeping.component';
+import { AppRoutingTestModule } from './app-routing-test.module';
 
 const routes: Routes = [
 {path : '', redirectTo: 'hello', pathMatch : 'full' },
@@ -42,7 +43,8 @@ const routes: Routes = [
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    AppRoutingTestModule
   ],
   providers: [
   { provide : LocationStrategy, useClass : HashLocationStrategy }
