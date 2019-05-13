@@ -13,6 +13,7 @@ import { UserFormComponent } from './user-form/user-form.component';
 import { FormWithValidationsExplicitComponent } from './form-with-validations-explicit/form-with-validations-explicit.component';
 import { HttpComponent } from './http/http.component';
 import { RouterAppComponent } from './router-app/router-app.component';
+import { WangSleepComponent } from './wang-sleep/wang-sleep.component';
 
 const routes: Routes = [
 {path : '', redirectTo: 'hello', pathMatch : 'full' },
@@ -31,6 +32,7 @@ const routes: Routes = [
     FormWithValidationsExplicitComponent,
     HttpComponent,
     RouterAppComponent,
+    WangSleepComponent,
 
   ],
   imports: [
