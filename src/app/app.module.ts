@@ -17,6 +17,7 @@ import { WangSleepComponent } from './wang-sleep/wang-sleep.component';
 import { WantSleepingComponent } from './want-sleeping/want-sleeping.component';
 import { AppRoutingTestModule } from './app-routing-test.module';
 import { DashboardTestComponent } from './dashboard-test/dashboard-test.component';
+import { DirectiveDirective } from './directive.directive';
 
 const routes: Routes = [
 {path : '', redirectTo: 'hello', pathMatch : 'full' },
@@ -38,6 +39,7 @@ const routes: Routes = [
     WangSleepComponent,
     WantSleepingComponent,
     DashboardTestComponent,
+    DirectiveDirective,
 
   ],
   imports: [
